@@ -1,0 +1,228 @@
+// Header Section Start
+a {
+    text-decoration: none;
+}
+
+.nav--bar {
+    padding: 20px 8px 12px;
+    
+    a img {
+        padding: 0;
+        margin: 0;
+        width: 116px;
+        height: 36px;
+    }  
+}
+
+.header--section {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-right {
+    align-items: center;
+    display: flex;
+
+    .header {
+        display: flex;
+        gap: 1.75rem;
+        list-style: none;
+        margin-right: 30px;
+        margin-bottom: 0;
+        padding-left: 0;
+
+        a {
+            text-decoration: none;
+            line-height: 38px;
+            font-size: 14px;
+            color: #757575;
+            
+            i {
+                font-size: 11px;
+                padding-left: 2px;
+            }
+        }
+    }
+
+    .login {
+        border-left: solid 2px;
+        border-color: #a3a4a5;
+        color: #000;
+        font-weight: 700;
+        line-height: 20px;
+        padding: 8px 20px;
+        text-decoration: none;
+        /* border-left-width: 2px; */
+    }
+
+    .get-started {
+        background-color: #e91e63;
+        border-radius: 6px;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        padding: 8px 20px;
+    }
+}
+
+.login:hover {
+    color: #e91e63;
+    border-bottom: solid 2px;
+}
+
+.header li a:hover { 
+    color: #e91e63;
+    border-bottom: solid 2px;
+}
+
+.padding-lfet-right {
+    margin-top: 25px;
+    padding: 0 60px;
+}
+
+.row {
+    margin-top: 16px;
+}
+.Baner {
+    border-bottom: solid 3px #f9fbfe;
+}
+.bnner-button {
+
+    .Peakflo {
+        color: #e91e63;
+        background-color: #fff4f7;
+        border-radius: 6px;
+        padding: 16px 22px;
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 8px;
+        margin-right: 8px;
+
+        i {
+            font-size: 11px;
+        }
+    }
+}
+
+.bnner-button {
+    margin-top: 33px;
+    align-items: center;
+    display: flex;
+}
+
+.inner {
+    
+    .title {
+        color: #134185;
+        font-size: 38px;
+        font-weight: 700;
+        line-height: 44px;
+        margin: 0;
+    }
+
+    p {
+        color: #385d8d;
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 0;
+    }
+}
+
+.margin-top {
+    margin-bottom: 0;
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 16px;
+}
+
+.bnner-button .Request {
+    border-radius: 6px;
+    background-color: #e91e63;
+    color: #fff;
+    font-size: 18px;
+    margin-right: 32px;
+    margin-bottom: 8px;
+    padding: 16px 45px;
+    line-height: 28px;
+}
+picture img {
+    margin-top: 16px;
+    width: 320px;
+    height: 128px;
+}
+
+.md\:mb-6 {
+    margin-bottom: 24px;
+}
+
+// bootstrap css
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    border-radius: 50%;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+.carousel-indicators { 
+    position: absolute; 
+    right: 0; 
+    bottom: -56px; 
+    left: 0; 
+    gap: 18px; 
+    z-index: 2; 
+    display: flex; 
+    justify-content: center; 
+    padding: 0; 
+    margin-right: 15%; 
+    margin-bottom: 1rem; 
+    margin-left: 15%; 
+}
+.carousel-control-next-icon,.carousel-control-prev-icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+}
+.carousel-control-prev {
+    left: -53px;
+}
+.carousel-control-next {
+    right: -53px;
+}
+.carousel-caption h5 {
+    color: #fff;
+    font-size: 17px;
+    text-align: left;
+}
+.carousel-caption {
+    position: absolute;
+    right: 33%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 0.25rem;
+    color: #fff;
+    text-align: center;
+    margin-left: -46px;
+}
+.carousel-caption p {
+    text-align: left;
+    color: #fff;
+}
+// Header Section End
